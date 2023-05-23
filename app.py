@@ -17,7 +17,6 @@ website_dictionary_mapping = {
     'theitdepot_checkbox': 'search_theitdepot'
 }
 
-
 @app.route("/data", methods=["POST"])
 def scrape():
     if request.form is not None:
