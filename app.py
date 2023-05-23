@@ -7,7 +7,6 @@ app = Flask(__name__)
 def check_connection():
     return jsonify({'status': 'OK'})
 
-
 website_dictionary_mapping = {
     'amazon_checkbox': 'search_amazon',
     'flipkart_checkbox': 'search_flipkart',
