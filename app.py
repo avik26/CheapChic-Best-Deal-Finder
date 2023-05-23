@@ -35,7 +35,7 @@ def scrape():
     else:
         return jsonify({'error': 'No form found in request'}), 503
 
-    
+   
 @app.route('/')
 def index():
     return render_template('index.html')
